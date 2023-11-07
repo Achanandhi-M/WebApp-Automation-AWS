@@ -10,10 +10,11 @@ This repository contains the source code and configuration for a simple web appl
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
 - [Pipeline Stages](#pipeline-stages)
-- [Automated Testing]
+- [Automated Testing](Testing)
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
+- [Output](#reference)
 
 ## Overview
 
