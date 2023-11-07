@@ -18,7 +18,7 @@ describe('GET /', () => {
 });
 
 describe('GET /about', () => {
-  it('should return "About Page"', (done) => {
+  it('should return "About Page -1 "', (done) => {
     chai.request(app)
       .get('/about')
       .end((err, res) => {
