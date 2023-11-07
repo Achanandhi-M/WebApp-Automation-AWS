@@ -4,7 +4,7 @@ phases:
   pre_build:
     commands:
       - echo "Installing dependencies..."
-      - npm ci  
+      - npm ci
 
   build:
     commands:
@@ -13,8 +13,7 @@ phases:
 
   post_build:
     commands:
-      - echo "Running tests in parallel..."
-      - npm install mocha --save-dev
+      - echo "Running tests..."
       - npm test
 
 artifacts:
