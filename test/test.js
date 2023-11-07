@@ -23,7 +23,7 @@ describe('GET /about', () => {
       .get('/about')
       .end((err, res) => {
         expect(res).to.have.status(200);
-        expect(res.text).to.equal('About Page');
+        expect(res.text).to.equal('About Page -1 ');
         done();
       });
   });
