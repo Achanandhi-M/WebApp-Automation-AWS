@@ -10,7 +10,7 @@ This repository contains the source code and configuration for a simple web appl
   - [Prerequisites](#prerequisites)
   - [Setup](#setup)
 - [Pipeline Stages](#pipeline-stages)
-- [Automated Testing (Bonus)](#automated-testing-bonus)
+- [Automated Testing]
 - [Deployment](#deployment)
 - [Contributing](#contributing)
 - [License](#license)
@@ -75,9 +75,9 @@ The CI/CD pipeline is composed of the following stages:
 - **Deploy Stage**:
   - This stage deploys the application to the Elastic Beanstalk environment using CodePipeline's integration.
 
-## Automated Testing (Bonus)
+## Automated Testing 
 
-As a bonus, you can add automated tests to your application and configure the pipeline to run these tests before deploying the application.
+You can add automated tests to your application and configure the pipeline to run these tests before deploying the application.
 
 ## Deployment
 
@@ -92,7 +92,4 @@ We welcome contributions to this project. Please feel free to submit issues, fea
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-**Note**: Replace this README with your specific project information and customize it to suit your needs.
-
 Happy coding and automating your deployments with AWS! 😊
