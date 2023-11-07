@@ -92,5 +92,102 @@ We welcome contributions to this project. Please feel free to submit issues, fea
 
 This project is licensed under the [MIT License](LICENSE).
 
+
+## Output(For Reference)
+
+### Configure the Environment for Elastic Beanstalk
+
+
+## ![Screenshot from 2023-11-07 16-10-39](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/e7cc7696-b963-4e7a-a77e-10c3f53a9f0f)
+
+
+### Choose the platform and platform Branch based on your requirements, This project is based on Nodejs
+
+
+## ![Screenshot from 2023-11-07 16-10-52](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/a5309fdb-41fe-46bb-8e36-a38df72af414)
+
+
+### Set up the Networking and Database 
+
+
+## ![Screenshot from 2023-11-07 16-11-22](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/947ff0aa-af22-4ae5-a991-7df9dd9b52b2)
+
+
+## Configure Pipeline for CI/CD 
+
+### Choose the pipeline Settings
+
+
+![Screenshot from 2023-11-07 16-12-06](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/db6e3371-a68e-4732-b7da-f9bc495663f2)
+
+
+### Most importantly add source providers like(Github , BitBucket, Codecommit etc) 
+
+
+![Screenshot from 2023-11-07 16-12-44](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/cfc5c7bb-7d27-421a-80ae-a9af4c1d6615)
+
+
+### Create a Build stage in the Codebuild Service console
+
+
+![Screenshot from 2023-11-07 16-13-10](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/a70c80ef-8323-48dd-b9d8-3fadb2c37d1a)
+
+
+### Add Build Stage
+
+![Screenshot from 2023-11-07 16-14-18](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/5565ea28-bbc9-42c3-9282-e87b4df79799)
+
+
+### Add deploy Stage
+
+![Screenshot from 2023-11-07 16-14-36](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/16bd02ea-cde0-44a5-9787-5afb0b2fd7bc)
+
+
+### Finally Review the Changes and click Create
+
+
+![Screenshot from 2023-11-07 16-14-45](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/5b0bff2a-07bb-437b-943a-b347c6d72ec9)
+
+
+## Logs
+
+
+![Screenshot from 2023-11-07 16-33-31](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/5083ec66-b05b-4bc1-9598-6c0e7fe362f9)
+
+
+## Complete Flowchart
+
+![Screenshot from 2023-11-07 16-44-35](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/9c1b5b87-c9e6-4c87-94ac-45d8120e369a)
+
+
+## ElaticBeanStalk Console
+
+### Click the Domain link to access the web application
+
+
+![Screenshot from 2023-11-07 17-01-55](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/e5c196d0-956b-4da9-abc6-ebcff2491f14)
+
+
+
+## Final output of the Web Application 
+
+
+![Screenshot from 2023-11-07 16-44-20](https://github.com/Achanandhi-M/WebApp-Automation-AWS/assets/110651321/709678dc-4ca4-4428-9e35-f7b2e945b85e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 Happy coding and automating your deployments with AWS! 😊
