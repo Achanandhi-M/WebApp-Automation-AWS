@@ -1,0 +1,24 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo "Installing dependencies..."
+      - npm ci  
+
+  build:
+    commands:
+      - echo "Building the Node.js application..."
+      - npm run build
+
+  post_build:
+    commands:
+      - echo "Running tests in parallel..."
+      - npm install mocha --save-dev
+      - npm test
+
+artifacts:
+  files: '**/*'
+cache:
+  paths:
+    - node_modules/
