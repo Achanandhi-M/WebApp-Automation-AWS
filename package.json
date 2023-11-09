@@ -2,7 +2,7 @@
   "name": "webapp-automation-aws",
   "version": "1.0.0",
   "description": "Automate your web app deployment with AWS CodePipeline, CodeBuild, and Elastic Beanstalk. Streamline build, test, and deploy processes",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "start": "node app.js",
     "test": "mocha test/*.js --exit",

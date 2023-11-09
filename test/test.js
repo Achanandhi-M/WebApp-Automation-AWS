@@ -6,7 +6,7 @@ chai.use(chaiHttp);
 const expect = chai.expect;
 
 describe('GET /', () => {
-  it('should return "Hello, Vidhyouth Oluga padi da!"', (done) => {
+  it('should return " Hello, Vidhyouth Oluga padi da!" ', (done) => {
     chai.request(app)
       .get('/')
       .end((err, res) => {
