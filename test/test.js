@@ -6,12 +6,12 @@ chai.use(chaiHttp);
 const expect = chai.expect;
 
 describe('GET /', () => {
-  it('should return " Hello" ', (done) => {
+  it('should return " Hello world" ', (done) => {
     chai.request(app)
       .get('/')
       .end((err, res) => {
         expect(res).to.have.status(200);
-        expect(res.text).to.equal('Hello');
+        expect(res.text).to.equal('Hello world');
         done();
       });
   });
